@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="nexis-logistics-website">
+    <meta name="description" content="Nexis Logistics carriers, 5 Years of experience">
+    <link rel="icon" href="Photos/logo212.png">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Nexis Logistics LLC</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <div class="container">
+            <div class="h1txt" onclick="scrollToHome()">
+                <h1>Nexis Logistics LLC</h1>
+                <div class="img123"></div>
+            </div>
+            <nav id="navbar">
+                <!-- Navbar list home/about/services/contact -->
+                <div class="background-clr-list">
+                    <ul class="nav-links">
+                        <li><a href="#" class="nav-link" id="home" onclick="scrollToHome()">Home</a></li>
+                        <li><a href="#" class="nav-link" onclick="ScrollToAboutUs(event)">About</a></li>
+                        <li><a href="#" class="nav-link" onclick="ScrollToServices(event)">Services</a></li>
+                        <li><a href="#" class="nav-link" onclick="ScrollToContact(event)">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- First section of the website -->
+    <section class="section-1">
+        <div class="section-txt-1">
+            <div class="section-text-2">
+                <h2>Dependable Dispatch Delivered with Trust</h2>
+                <div class="btn-sec-head">
+                    <div class="btn-sec-header">
+                        <button onclick="ScrollToContact(event)">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mid section: Who do we work for? onclick services -->
+    <section>
+        <div class="section-2-container">
+            <div class="About-us">
+                <div id="ScrollButton"></div>
+                <h2>About us</h2>
+            </div>
+            <div class="paragraph">
+                <p>Welcome to Nexis <span class="text-red">Logistics</span> LLC, where competitiveness meets excellence in carrier services! As a leading player in the industry, we pride ourselves on delivering unparalleled solutions tailored to meet the dynamic needs of modern businesses.</p>
+            </div>
+        </div>
+        <div class="image-container-about-us">
+            <div class="images-about">
+                <div class="image1">
+                    <h2>High-level Dispatching</h2>
+                    <img src="Photos/45.png" alt="">
+                    <br>
+                    <p>Precise coordination, 24/7 vigilance. Seamless dispatching for swift, efficient operations in every logistical challenge.</p>
+                </div>
+                <div class="image1">
+                    <h2>Dedicated/Exclusive Lanes</h2>
+                    <img src="Photos/3434.png" alt="">
+                    <br>
+                    <p>Our company is making sure that every customer is getting Dedicated Exclusive trucks for each shipment.</p>
+                </div>
+                <div class="image1">
+                    <h2>Advanced Technologies</h2>
+                    <img src="Photos/31232.png" alt="">
+                    <br>
+                    <p>Innovative tech solutions, transforming operations. Stay ahead with cutting-edge technologies for unparalleled efficiency and progress.</p>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section >
+    <section>
+        <div id="ScrollServices"></div>
+        <div class="section-3-container">
+            <div class="sec-3-class">
+                <h2>Companies we are Currently working with</h2>
+            </div>
+            <div class="image-container-sec3">
+                <div class="image-sec3">
+                    <img src="Photos/DAT.png" alt="">
+                    <img src="Photos/sylectus.png" alt="">
+                    <img src="Photos/amazon-logo-s3f.png" alt="">
+                    <img src="Photos/123.loadboard.png" alt="">
+                </div>
+            </div>
+            <!-- CARD REVIEWS SECTION-->
+            <div class="wrapper" >
+                <div class="contain-reviews">
+                    <i class="fa-solid fa-truck-fast" style="color: rgb(255, 255, 255);"></i>
+                    <span class="num" data-val="1855">000</span>
+                    <span class="text">Loads Delivered</span>
+                </div>
+                <div class="contain-reviews">
+                    <i class="fa-regular fa-face-smile-beam" style="color: rgb(255, 255, 255);"></i>
+                    <span class="num" data-val="1352">000</span>
+                    <span class="text">Satisfied customers</span>
+                </div>
+                <div class="contain-reviews">
+                    <i class="fa-solid fa-chart-pie" style="color: rgb(255, 255, 255);"></i>
+                    <span class="num" data-val="560">000</span>
+                    <span class="text">Number of trucks</span>
+                </div>
+                <div class ="contain-reviews">
+                    <i class="fa-solid fa-desktop" style="color: rgb(255, 255, 255);"></i>
+                    <span class="num" data-val="44">000</span>
+                    <span class="text">Number of Dispatchers</span>
+                </div>
+            </div>
+            <div class="para-card">
+            <p>5 Years of Carrier experience</p>
+        </div>
+        <!-- sing up, click alert sing up-->
+            <div class="singup-container">
+                <div class="button-container-singup">
+                    <button onclick="singup()">Sing up with us</button>
+                    <div id="text-display"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 reviews-->
+    <Section>
+        <div class="section4-container">
+            <div class="section4-h2">
+                <h2>Fleet filled with Professional Drivers</h2>
+                <div class="section-4-par">
+                    <p>Your shipment, Our responsibility</p>
+                </div>
+                <div class="sec-4-mainflex">
+                <div class="sec-4-imagep">
+                    <div class="sec-4-p-container">
+                        <div class="sec-4-p2">
+                            <p>Efficient routes ensure timely shipments</p>
+                        </div>
+                    </div>
+                <div class="img-container-sec4">
+                    <div class="phone-img2">
+                        <img src="Photos/stockphoto.jpg" alt="">
+                    </div>
+                    <div>    
+                    </div>
+                </div>
+            </div>
+                <div class="sec-4-imagep">
+                    <div class="sec-4-p-container">
+                        <div class="sec-4-p">
+                            <p>Reliable Fleet Ensures Timely Deliveries</p>
+                        </div>
+                    </div>
+                <div class="img-container-sec4">
+                    <div class="phone-img">
+                        <img src="Photos/AdobeStock_503962159-jpeg.webp" alt="">
+                    </div>
+                    <div>    
+                    </div>
+                </div>
+            </div>
+                <div class="sec-4-imagep">
+                    <div class="sec-4-p-container">
+                        <div class="sec-4-p">
+                            <p>Efficiency in Motion: Your Logistics Solution</p>
+                        </div>
+                    </div>
+                <div class="img-container-sec4">
+                    <div class="phone-img">
+                        <img src="Photos/truckdriver.jpg" alt="">
+                    </div>
+                    <div>    
+                    </div>
+                </div>
+            </div>
+            </div>
+    </Section>
+    <section>
+        <div id="ScrollContact"></div>
+        <div class="footer-container">
+            <div class="footer-contact-container">
+            <div class="footer-h1">
+                <div class="logo-on-footer">
+                    <div class="logo-on-container"></div>
+                    <img src="Photos/logo21.png">
+                </div>
+                <h1>Contact us & get started:</h1>
+            </div>
+            <div class="footer-p">
+                <p>786-720-4632 <br> <br>Fort Myers, Fl <br> <br>bryce@nexislogisticsllc.com
+                </p>
+            </div>
+        </div>
+        <div>
+        </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

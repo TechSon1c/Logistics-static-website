@@ -1,0 +1,974 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.h1txt  h1{
+    margin-left: 100px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.h1txt h1:hover {
+    color: rgb(189, 121, 2);
+}
+
+
+
+
+
+
+
+ /* <  head > */ 
+
+
+
+
+
+/* < header container > */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0;
+}
+
+ /*--------------------------*\ 
+  < h1 nexis logistics llc > 
+ \*--------------------------*/
+.text1 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    
+    
+}
+
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 90px; 
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 2px;
+    
+}
+
+.text-red {
+    color:  rgba(116, 61, 19, 0.873);
+}
+ 
+
+ /*--------------------------*\ 
+  <  navigator list links > 
+ \*--------------------------*/
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+    
+    
+}
+
+ /*--------------------------*\ 
+  <  navigator lists > 
+ \*--------------------------*/
+
+
+.background-clr-list {
+    margin-left: 25%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+
+   
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    margin-right: 3%;
+    padding: 15px;  
+    
+}
+
+
+.nav-link:hover {
+    color: rgb(252, 0, 0);
+}
+
+ /*--------------------------*\ 
+  <  logo image > 
+ \*--------------------------*/
+.logo-img img {
+    position: absolute;
+    top: 50%;
+    left: 40px; 
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 60px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+ /*--------------------------*\ 
+  <     First section 
+ \*--------------------------*/
+
+
+.section-txt-1 h1 {
+    color: white;
+
+}
+
+.section-txt-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(Photos/truck.jpg);
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+
+
+
+.section-img-1 img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin: 10px;
+}
+
+
+.section-text-2 h2{
+    font-size: 40px;
+    font-weight: bolder;
+    max-width: 500px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    
+}
+
+
+.btn-sec-header {
+    padding: 20px;
+
+    
+    
+}
+
+.btn-sec-header button {
+    background:transparent;
+    border: none;
+    font-size: 25px;
+    width: 210px;
+    height: 90px;
+    color: rgb(252, 247, 247);
+    font-family:sans-serif;
+    cursor: pointer;
+    background-color: rgba(192, 63, 17, 0.937);  
+    transition: 0.3s;
+    
+
+}
+
+
+
+.section-text-2 h2 {
+    font-weight: 100;
+    font-family: sans-serif;
+    
+}
+
+.btn-sec-header button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+ /*--------------------------*\ 
+       Second section 
+ \*--------------------------*/
+
+ /*--------------------------*\ 
+        Section about us 
+ \*--------------------------*/
+
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    background-image: url(Photos/logo21.png);
+    background-position: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ .About-us h2 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+ 
+    
+    
+}
+
+.paragraph p {
+    max-width: 900px;
+    color: black;
+    background-position: center;
+    font-size: 30px;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+.About-us {
+    padding: 1px;
+    background-color:rgba(192, 63, 17, 0.937); 
+    transition: 0.6s;
+    
+}
+
+.image-container-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ 
+    
+
+}
+
+.images-about {
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+.image1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+
+
+.image1 h2 {
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color:white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.8s;
+}
+
+.image1 h2:hover {
+    color: rgba(204, 32, 32, 0.873);
+    background-color: white;
+
+}
+
+.image1 p {
+    max-width: 335px;
+    color: rgb(2, 0, 60);
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 25px;
+    
+    
+}
+
+.images-about img {
+    max-width: 300px;
+    background:  conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+}
+
+.h1-container-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container-section1 {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.btn-focus-sct1 button {
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 30px;
+    width: 300px
+}
+
+
+
+ /*--------------------------*\ 
+   Section 3 who we work for
+ \*--------------------------*/
+
+.section-3-container {
+    background-image: url(Photos/truck2.bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    
+    
+}
+
+.sec-3-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sec-3-class h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-radius: 6px;
+    max-width: 800px;
+    padding: 20px;    
+    
+}
+
+.image-sec3 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;  
+   margin: 2px;
+   max-width: 700px;
+   margin:0 auto;
+   border-radius: 6px;
+
+   
+}
+
+.image-sec3 img {
+    max-width: 120px;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+
+.paragraph-s3 p {
+    text-align: center;
+    color: white;
+}
+
+
+ /*--------------------------*\ 
+       Review card section 
+ \*--------------------------*/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+ }
+ 
+ .contain-reviews {
+    margin: 16px;
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 1em;
+    position: relative;
+    font-size: 20px;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.706);
+    
+ }
+ 
+.contain-reviews i {
+    color: green;
+    font-size: 2.5em;
+    text-align: center;
+    
+ }
+ 
+ span.num {
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+    
+ }
+ 
+ 
+ span.text {
+    color:rgba(255, 255, 255, 0.739);
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+    
+ }
+ 
+
+
+ /*--------------------------*\ 
+       Review Parahraph card
+ \*--------------------------*/
+
+
+.para-card p {
+    color: white;
+    max-width: 650px;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.para-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ /*--------------------------*\ 
+        sing up button 
+ \*--------------------------*/
+
+.singup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-container-singup button {
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background:conic-gradient(at top right, slategray, white);
+    border-radius: 50px;
+    width: 280px;
+    cursor: pointer;
+
+    
+}
+
+.button-container-singup {
+    padding: 15px;
+}
+
+#text-display {
+    margin: 20px;
+    font-size: 20px;
+    color: white;  
+    padding: 10px;
+    border-radius: 6px;
+ 
+}
+
+ /*--------------------------*\ 
+    Live fleet tracking section 4
+ \*--------------------------*/
+
+
+ .section4-h2 {
+    text-align: center;
+    padding: 0;
+}
+
+.img-container-sec4 img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+
+
+.sec-4-p-container {
+    margin: 20px;
+    max-width: 400px;
+}
+
+.sec-4-p2 p {
+    font-size: 30px;
+    border-radius: 5px;
+
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    box-shadow: 2px 2px 12px black;
+}
+
+.phone-img2 img {
+    max-width: 335px;
+}
+
+.sec-4-p p {
+    font-size: 30px;
+    border-radius: 5px;
+
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+   
+}
+
+.sec-4-mainflex {
+    display: flex;
+    background: black;
+    padding: 40px;
+    
+}
+
+.sec-4-imagep {
+    margin: 0 auto;
+    padding: 40px;
+    
+
+    
+}
+
+
+
+ /*--------------------------*\ 
+  Live fleet tracking section 4
+ \*--------------------------*/
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    background-color: rgb(27, 22, 18);
+    padding: 20px;
+    
+
+}
+
+.footer-contact-container {
+    margin-left: 280px;
+    padding: 50px;
+    display: inline-block;
+    
+}
+
+.footer-h1 h1{
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    color: white;
+
+    
+}
+.footer-p p{
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    color: white;
+    font-weight: lighter;
+    
+
+
+
+}
+
+
+.logo-on-container {
+    display: flex;
+}
+
+.logo-on-footer img{
+    max-width: 100px;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*--------------------------*\ 
+        scroll bottom to top 
+ \*--------------------------*/
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    background-color:black ;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    transition: 0.8s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+ /*--------------------------*\ 
+  
+ \*--------------------------*/
+
+
+
+  /*--------------------------*\ 
+    MEDIA QUERYES
+ \*--------------------------*/
+
+ @media only screen and (max-width: 768px)  {
+    header  {
+        background-size: 70px; 
+        
+    }
+    .h1txt h1{
+        display: none;
+        
+    }
+
+    .background-clr-list {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .section-text-2 h2 {
+        font-size: 25px;
+        padding: 20px;
+        color: black;
+        
+    }
+
+    .section-txt-1 {
+        height: 500px;
+        background-size:800px;
+    }
+
+    .btn-sec-header {
+        margin-top:190px;
+    
+    }
+    .btn-sec-header button {
+        font-size: 20px;
+        width: 150px;
+        height: 80px;
+        padding: 3px;
+    }
+
+    .About-us h2{
+        font-size: 30px;
+        padding: 0;
+    }
+
+   
+
+    .paragraph p {
+        display: none;
+    }
+
+    .image1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        max-width: 100px;
+    
+    }
+
+    .image1 p{
+        font-size: 11px;
+        text-align: center;
+        margin-right: 60px;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .image1 h2 {
+        font-size: 30px;
+        display: none;
+        padding: 0;
+    }
+
+    .image1 img {
+        flex-wrap: wrap;
+        max-width: 80px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+    }
+
+    .sec-3-class h2{
+        color: rgb(251, 251, 251);
+    }
+  
+    .image-sec3 {
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .image-sec3 img {
+        margin:0;
+        padding: 0;
+        width: 80px;
+    }
+
+    .wrapper {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 15px;
+    }
+
+    .contain-reviews {
+        width: 100px;
+        height: 30vmin;
+        font-size: 14px;        
+    }
+    
+    .footer-contact-container{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+ }
+
+
+
+
+ @media only screen and (max-width: 884px)  {
+    header  {
+        background-size: 60px;
+        
+    }
+  
+
+    .background-clr-list {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .section-text-2 h2 {
+        font-size: 25px;
+        padding: 20px;
+        color: black;
+        
+    }
+
+    .section-txt-1 {
+        height: 500px;
+        background-size:800px;
+    }
+
+    .btn-sec-header {
+        margin-top:190px;
+    
+    }
+    .btn-sec-header button {
+        font-size: 20px;
+        width: 150px;
+        height: 80px;
+        padding: 3px;
+    }
+
+    .About-us h2{
+        font-size: 30px;
+        padding: 0;
+    }
+
+   
+
+    .paragraph p {
+        display: none;
+    }
+
+    .image1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        max-width: 100px;
+    
+    }
+
+    .image1 p{
+        font-size: 11px;
+        text-align: center;
+        margin-right: 60px;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .image1 h2 {
+        font-size: 30px;
+        display: none;
+        padding: 0;
+    }
+
+    .image1 img {
+        flex-wrap: wrap;
+        max-width: 80px;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+
+    .sec-3-class h2{
+        color: rgb(251, 251, 251);
+    }
+    
+
+    .image-sec3 {
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .image-sec3 img {
+        width: 80px;
+    }
+
+    .wrapper {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 15px;
+    }
+
+    .contain-reviews {
+        width:90px;
+        height: 30vmin;
+        font-size: 10px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;      
+    }
+
+    .sec-4-mainflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        
+    }
+    .sec-4-mainflex img {
+        max-width: 200px;
+    }
+
+    .sec-4-mainflex p {
+        font-size: 20px;
+    }
+
+    .footer-contact-container{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+ }
+
+
+ @media only screen and (max-width: 1200px)  {
+    .sec-4-mainflex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; 
+    }
+ }
